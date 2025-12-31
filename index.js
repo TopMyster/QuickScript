@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 import cmd from "./cmd.js";
 
-cmd.doc.log(cmd.math.add(5, 8))
-
+cmd.decl(name)
+cmd.set(name, 'top')
+cmd.doc.log(name)
 
