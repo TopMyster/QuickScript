@@ -1,0 +1,14 @@
+{
+    "name": "quicklang",
+    "version": "1.0.0",
+    "description": "A tiny language built with JavaScript functions",
+    "type": "module",
+    "main": "cmd.js",
+    "bin": {
+        "start": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "license": "MIT"
+}
