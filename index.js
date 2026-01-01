@@ -1,7 +1,3 @@
-#!/usr/bin/env node
 import cmd from "./cmd.js";
 
-cmd.vars.decl('name')
-cmd.vars.set('name', 'top')
-cmd.doc.log(cmd.vars.get('name'))
-
+cmd.markup.appendEl('content', cmd.markup.newEl('h2', 'name', { class: 'title' }, 'Hello World'))

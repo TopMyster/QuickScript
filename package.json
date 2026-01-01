@@ -5,10 +5,10 @@
     "type": "module",
     "main": "cmd.js",
     "bin": {
-        "run": "./index.js"
+        "run": "./run.js"
     },
     "scripts": {
-        "run": "node index.js"
+        "run": "node run.js"
     },
     "license": "MIT"
 }
