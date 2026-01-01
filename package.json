@@ -3,12 +3,9 @@
     "version": "1.0.0",
     "description": "A JS Library built with JavaScript functions",
     "type": "module",
-    "main": "cmd.js",
-    "bin": {
-        "run": "./run.js"
-    },
+    "main": "funcscript.js",
     "scripts": {
-        "run": "node run.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "license": "MIT"
 }

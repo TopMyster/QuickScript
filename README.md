@@ -3,9 +3,6 @@ A JS Framework for a <b>FUNCy</b> experience
 
 ## Phrases 
 
-### cmd 
-##### The start phrase for all JS related functions 
-
 ### math
 ##### The start phrase for all math related functions
 
@@ -26,22 +23,18 @@ A JS Framework for a <b>FUNCy</b> experience
 ```var.remove(name)```
 
 ### markup
-##### The start phrase for all markup related functions
+##### The start phrase for all markup related functions (or import directly)
+
+```javascript
+import { appendEl, newEl } from 'funcscript';
+appendEl('id', newEl('h5', 'name', {}, 'Content'));
+```
 
 ```markup.newEl(el, id, props, content)```
-
-```markup.delEl(id)```
-
-```markup.updateEl(id, props, content)```
-
-```markup.appendEl(id, content)```
-
-```markup.prependEl(id, content)```
-
+...
 ```markup.replaceEl(id, content)```
 
 ### Installation
 1. Install node.js from https://nodejs.org/en/download/
 2. Run `npm install` to install dependencies
-3. Run `npm link` sync command shortcuts
-4. Run `run` to open the browser preview and see the magic
+3. Open `src/index.html` to see the FUNCky

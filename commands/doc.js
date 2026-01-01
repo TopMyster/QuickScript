@@ -10,6 +10,8 @@ function event(event, result) {
     document.addEventListener(event, result)
 }
 
+
+
 const doc = {
     log,
     alert,

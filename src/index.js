@@ -1,3 +1,3 @@
-import cmd from "../cmd.js";
+import { math, doc, vars, markup } from "../funcscript.js";
 
-cmd.markup.appendEl('content', cmd.markup.newEl('h5', 'name', { class: 'title' }, 'Testing'))
+markup.appendEl('content', markup.newEl('h5', 'name', { class: 'title' }, 'zelda'))
