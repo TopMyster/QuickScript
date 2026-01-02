@@ -1,6 +1,5 @@
 import { doc, vars, markup } from "../funcscript.js";
 
-vars.decl('counter')
 vars.set('counter', 0)
 
 markup.appendEl('content', markup.newEl('h1', 'counter', { class: 'title' }, vars.get('counter')))

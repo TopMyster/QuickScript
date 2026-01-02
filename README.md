@@ -14,7 +14,7 @@ A JS Framework for a <b>FUNCy</b> experience
 
 ```math.div(number1, number2)```
 
-## doc
+### doc
 ##### The start phrase for all document related functions
 
 ```doc.log(text)```
